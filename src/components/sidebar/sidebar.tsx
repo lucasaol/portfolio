@@ -1,17 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import { SidebarContent } from "./sidebar-content";
-import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "../ui/sheet";
+import { SidebarContent } from "@/components/sidebar/sidebar-content";
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 
 export function Sidebar() {
   const [open, setOpen] = useState<boolean>(false);
 
   return (
     <>
-      <aside className="fixed left-0 top-0 z-40 hidden h-full w-[280px] overflow-y-auto border-r border-sidebar-border bg-sidebar lg:block">
+      <aside className="fixed left-0 top-0 z-40 hidden h-full w-[300px] overflow-y-auto border-r border-sidebar-border bg-sidebar lg:block">
         <SidebarContent />
       </aside>
 

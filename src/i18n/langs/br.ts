@@ -1,4 +1,4 @@
-import type { Messages } from "./types";
+import type { Messages } from "@/i18n/langs/types";
 
 const br: Messages = {
   HomePage: {

@@ -1,5 +1,5 @@
 import type { Locale } from "@/i18n/routing";
-import type { Post } from "./types";
+import type { Post } from "@/domain/blog/types";
 
 const posts: Record<Locale, Post[]> = {
   br: [
