@@ -17,9 +17,16 @@ const en: Messages = {
     resume: "Resume",
     contact: "Contact",
   },
-  PostList: {
-    title: "Latest Posts",
-  },
+  About: {
+    title: "Lucas Andrade",
+    role: "Senior Software Engineer | Technical Leadership",
+    bio:
+      "---",
+    description:
+      "---",
+    viewPortfolio: "View Portfolio",
+    viewResume: "Resume"
+  }
 };
 
 export default en;

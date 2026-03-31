@@ -17,9 +17,16 @@ const br: Messages = {
     resume: "Currículo",
     contact: "Contato",
   },
-  PostList: {
-    title: "Últimos Posts",
-  },
+  About: {
+    title: "Lucas Andrade",
+    role: "Engenheiro de Software Sênior | Liderança Técnica",
+    description:
+      "Sou Desenvolvedor Fullstack com 8 anos de experiência, especializado em criar aplicações robustas e escaláveis, usando tecnologia moderna. Minha atuação vai além do código: uno liderança técnica e visão de produto para entregar soluções que resolvem dores reais de negócio, com especial expertise no setor de fintechs e sistemas de pagamento.",
+    bio:
+      "Quando não estou desenvolvendo projetos, estou ouvindo hip-hop, cuidando da coleção de sneakers ou tentando melhorar minha mira no FPS.",
+    viewPortfolio: "Ver portfolio",
+    viewResume: "Currículo"
+  }
 };
 
 export default br;

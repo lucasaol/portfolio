@@ -13,7 +13,12 @@ export type Messages = {
     resume: string;
     contact: string;
   };
-  PostList: {
+  About: {
     title: string;
+    role: string;
+    bio: string;
+    description: string;
+    viewPortfolio: string;
+    viewResume: string;
   };
 };

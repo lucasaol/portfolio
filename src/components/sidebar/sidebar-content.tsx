@@ -19,7 +19,7 @@ export function SidebarContent() {
     return (
         <div className="flex h-full flex-col items-center px-6 py-8">
             <Avatar className="mb-4 h-28 w-28 border-2 border-primary">
-                <AvatarImage src="/profile.png" alt="Lucas Andrade" />
+                <AvatarImage src="/memoji.png" alt="Lucas Andrade" />
                 <AvatarFallback className="bg-primary text-primary-foreground text-2xl font-bold">LA</AvatarFallback>
             </Avatar>
 
