@@ -12,11 +12,11 @@ const en: Messages = {
       "Full-stack developer portfolio showcasing projects, skills, and experience.",
   },
   Sidebar: {
-    title: "Menu",
-    home: "Home",
-    blog: "Blog",
-    projects: "Projects",
-    about: "About",
+    about: "About me",
+    overview: "What I Do",
+    projects: "Portfolio",
+    resume: "Resume",
+    contact: "Contact",
   },
   PostList: {
     title: "Latest Posts",

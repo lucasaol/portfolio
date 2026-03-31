@@ -8,11 +8,11 @@ export type Messages = {
     description: string;
   };
   Sidebar: {
-    title: string;
-    home: string;
-    blog: string;
-    projects: string;
     about: string;
+    overview: string;
+    projects: string;
+    resume: string;
+    contact: string;
   };
   PostList: {
     title: string;

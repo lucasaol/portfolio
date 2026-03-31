@@ -12,11 +12,11 @@ const br: Messages = {
       "Portfólio de desenvolvedor full-stack apresentando projetos, habilidades e experiência.",
   },
   Sidebar: {
-    title: "Menu",
-    home: "Início",
-    blog: "Blog",
-    projects: "Projetos",
     about: "Sobre",
+    overview: "O que Faço",
+    projects: "Projetos",
+    resume: "Currículo",
+    contact: "Contato",
   },
   PostList: {
     title: "Últimos Posts",
