@@ -13,6 +13,9 @@ export type Messages = {
     resume: string;
     contact: string;
   };
+  Footer: {
+    rights: string;
+  };
   About: {
     title: string;
     role: string;

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Sidebar } from "@/components/sidebar";
 import { ThemeProvider } from "next-themes";
+import { Footer } from "@/components/footer";
 
 type Props = {
   children: React.ReactNode;
@@ -34,7 +35,12 @@ export default async function LocaleLayout({ children, params }: Props) {
       >
         <div className="flex min-h-screen">
           <Sidebar />
-          <main className="flex-1 lg:ml-[300px]">{children}</main>
+          <main className="flex-1 lg:ml-[300px]">
+            <div className="min-h-svh">
+              {children}
+            </div>            
+            <Footer />
+          </main>
         </div>
       </ThemeProvider>
     </NextIntlClientProvider>

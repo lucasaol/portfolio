@@ -17,6 +17,9 @@ const en: Messages = {
     resume: "Resume",
     contact: "Contact",
   },
+  Footer: {
+    rights: "---"
+  },
   About: {
     title: "Lucas Andrade",
     role: "Senior Software Engineer | Technical Leadership",

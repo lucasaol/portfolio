@@ -17,6 +17,9 @@ const br: Messages = {
     resume: "Currículo",
     contact: "Contato",
   },
+  Footer: {
+    rights: "Todos os direitos reservados."
+  },
   About: {
     title: "Lucas Andrade",
     role: "Engenheiro de Software Sênior | Liderança Técnica",
