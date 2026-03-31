@@ -2,8 +2,9 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { useTranslations } from "next-intl";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
-import { SocialMedias } from "./social-medias";
-import { LanguageSelector } from "./language-selector";
+import { SocialMedias } from "@/components/sidebar/social-medias";
+import { LanguageSelector } from "@/components/sidebar/language-selector";
+import { ThemeToggle } from "@/components/sidebar/theme-toggle";
 
 const navLinks = [
   { path: "/", key: "about" as const },
@@ -44,6 +45,9 @@ export function SidebarContent() {
                     </Link>
                 ))}
             </nav>
+            <div className="mt-auto">
+                <ThemeToggle />
+            </div>
         </div>
     );
 }
