@@ -2,7 +2,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { setRequestLocale, getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { Sidebar } from "@/components/sidebar";
+import { Sidebar } from "@/components/sidebar/sidebar";
 
 type Props = {
   children: React.ReactNode;
@@ -28,7 +28,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     <NextIntlClientProvider messages={messages}>
       <div className="flex min-h-screen">
         <Sidebar />
-        <main className="flex-1 p-8">{children}</main>
+        <main className="flex-1 lg:ml-[280px]">{children}</main>
       </div>
     </NextIntlClientProvider>
   );
