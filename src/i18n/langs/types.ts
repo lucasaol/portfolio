@@ -9,7 +9,6 @@ export type Messages = {
   };
   Sidebar: {
     about: string;
-    overview: string;
     projects: string;
     resume: string;
     contact: string;

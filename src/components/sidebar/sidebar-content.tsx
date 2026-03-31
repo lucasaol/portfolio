@@ -7,7 +7,6 @@ import { LanguageSelector } from "./language-selector";
 
 const navLinks = [
   { path: "/", key: "about" as const },
-  { path: "/#overview", key: "overview" as const },
   { path: "/projects", key: "projects" as const },
   { path: "/resume", key: "resume" as const },
   { path: "/#contact", key: "contact" as const },

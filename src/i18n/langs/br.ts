@@ -13,7 +13,6 @@ const br: Messages = {
   },
   Sidebar: {
     about: "Sobre",
-    overview: "O que Faço",
     projects: "Projetos",
     resume: "Currículo",
     contact: "Contato",

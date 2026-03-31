@@ -13,7 +13,6 @@ const en: Messages = {
   },
   Sidebar: {
     about: "About me",
-    overview: "What I Do",
     projects: "Portfolio",
     resume: "Resume",
     contact: "Contact",
