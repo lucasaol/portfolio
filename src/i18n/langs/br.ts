@@ -29,6 +29,11 @@ const br: Messages = {
       "Quando não estou desenvolvendo projetos, estou ouvindo hip-hop, cuidando da coleção de sneakers ou tentando melhorar minha mira no FPS.",
     viewPortfolio: "Ver portfolio",
     viewResume: "Currículo"
+  },
+  Overview: {
+    title: "O Que Faço",
+    subtitle:
+      "Abaixo estão algumas das tecnologias e habilidades com as quais trabalho no dia a dia para entregar soluções de qualidade.",
   }
 };
 

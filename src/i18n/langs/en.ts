@@ -29,7 +29,12 @@ const en: Messages = {
       "---",
     viewPortfolio: "View Portfolio",
     viewResume: "Resume"
-  }
+  },
+  Overview: {
+    title: "---",
+    subtitle:
+      "---",
+  },
 };
 
 export default en;

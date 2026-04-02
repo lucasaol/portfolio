@@ -24,4 +24,8 @@ export type Messages = {
     viewPortfolio: string;
     viewResume: string;
   };
+  Overview: {
+    title: string;
+    subtitle: string;
+  }
 };
