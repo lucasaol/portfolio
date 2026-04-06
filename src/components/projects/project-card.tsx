@@ -45,7 +45,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
                 <CardFooter className="mt-auto">
                     <Button variant="outline" className="w-full cursor-pointer hover:scale-105">
-                        {t("viewMore")}
+                        {t('viewMore')}
                     </Button>
                 </CardFooter>
             </Link>

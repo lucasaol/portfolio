@@ -10,7 +10,7 @@ const categoryKeys = ["Web", "Mobile", "Frontend", "Backend"] as const;
 export function CategoryFilter() {
     const router = useRouter();
     const searchParams = useSearchParams();
-    const selected = searchParams?.get("c") ?? "";
+    const selected = searchParams?.get('c') ?? "";
     const t = useTranslations("Projects");
 
     const handleCategorySelected = (value: string) => {

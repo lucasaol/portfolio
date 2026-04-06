@@ -28,7 +28,6 @@ export async function generateMetadata({ params }: ProjectDetailsPageProps): Pro
 }
 
 export default async function ProjectDetailsPage({ params }: ProjectDetailsPageProps) {
-
     const {slug, locale } = await params;
     setRequestLocale(locale);
 
