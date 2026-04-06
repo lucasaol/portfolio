@@ -53,3 +53,11 @@ export function getProjects(locale: Locale, limit?: number): Project[] {
     }
     return projects;
 }
+
+export function getProjectBySlug(locale: Locale, slug: string): Project | undefined {
+    return allProjects[locale].find((p) => p.slug === slug);
+}
+
+export function getAllProjectSlugs() {
+    return allProjects.br.map((p) => p.slug);
+}

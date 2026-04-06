@@ -25,7 +25,28 @@ const hardSkills: Record<Locale, Skill[]> = {
             icon: GitBranchIcon
         }
     ],
-    en: [],
+    en: [
+        {
+            title: "---",
+            description: "---",
+            icon: Code2Icon
+        },
+        {
+            title: "---",
+            description: "---",
+            icon: DatabaseIcon
+        },
+        {
+            title: "---",
+            description: "---",
+            icon: CloudCogIcon
+        },
+        {
+            title: "---",
+            description: "---",
+            icon: GitBranchIcon
+        }
+    ],
 };
 
 
@@ -52,7 +73,28 @@ const softSkills: Record<Locale, Skill[]> = {
             icon: BookOpenIcon
         }
     ],
-    en: [],
+    en: [
+        {
+            title: "---",
+            description: "---",
+            icon: Users2Icon
+        },
+        {
+            title: "---",
+            description: "---",
+            icon: LightbulbIcon
+        },
+        {
+            title: "---",
+            description: "---",
+            icon: CreditCardIcon
+        },
+        {
+            title: "---",
+            description: "---",
+            icon: BookOpenIcon
+        }
+    ],
 };
 
 

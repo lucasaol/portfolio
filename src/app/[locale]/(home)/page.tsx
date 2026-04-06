@@ -24,8 +24,8 @@ export default function HomePage({ params }: PageProps) {
   return (
     <>
       <AboutSection />
-      <OverviewSection />
-      <ProjectsSection />
+      <OverviewSection locale={locale} />
+      <ProjectsSection locale={locale} />
       <ContactSection />
     </>
   );

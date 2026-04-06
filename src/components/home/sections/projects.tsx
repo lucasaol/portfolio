@@ -1,14 +1,19 @@
 
 import { ProjectList } from "@/components/projects/project-list";
 import { getProjects } from "@/domain/projects/data";
+import { Locale } from "@/i18n/routing";
 import { ExternalLink } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
-export function ProjectsSection() {
+interface OverviewProps {
+    locale: Locale;
+}
+
+export function ProjectsSection({ locale }: OverviewProps) {
     const t = useTranslations("Projects");
 
-    const projects = getProjects('br', 4);
+    const projects = getProjects(locale, 4);
 
     return (
         <section id="projects" className="py-12 px-4 sm:px-8 lg:px-12">

@@ -1,12 +1,17 @@
 
 import { SkillsList } from "@/components/skills/skills-list";
 import { getSkills } from "@/domain/skills/data";
+import { Locale } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 
-export function OverviewSection() {
+interface OverviewProps {
+    locale: Locale;
+}
+
+export function OverviewSection({ locale }: OverviewProps) {
     const t = useTranslations("Overview");
-    const hardSkills = getSkills('br', 'hard');
-    const softSkills = getSkills('br', 'soft');
+    const hardSkills = getSkills(locale, 'hard');
+    const softSkills = getSkills(locale, 'soft');
 
     return (
         <section id="overview" className="py-12 px-4 sm:px-8 lg:px-12 theme-bg-light">
