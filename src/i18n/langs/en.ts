@@ -46,6 +46,12 @@ const en: Messages = {
     subtitle:
       "---",
     viewMore: "---",
+  },
+  Contact: {
+    title: "---",
+    subtitle: "---",
+    sendMessage: "---",
+    location: "Brazil"
   }
 };
 

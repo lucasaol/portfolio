@@ -46,6 +46,12 @@ const br: Messages = {
     subtitle:
       "Abaixo estão algumas das tecnologias e habilidades com as quais trabalho no dia a dia para entregar soluções de qualidade.",
     viewMore: "Ver detalhes",
+  },
+  Contact: {
+    title: "Entre em Contato",
+    subtitle: "Tem um projeto em mente? Vamos conversar sobre como posso ajudar.",
+    sendMessage: "Enviar Mensagem",
+    location: "Brasil"
   }
 };
 

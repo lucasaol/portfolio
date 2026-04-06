@@ -38,4 +38,10 @@ export type Messages = {
     subtitle: string;
     viewMore: string;
   };
+  Contact: {
+    title: string;
+    subtitle: string;
+    sendMessage: string;
+    location: string;
+  };
 };
