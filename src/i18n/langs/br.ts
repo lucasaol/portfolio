@@ -34,6 +34,18 @@ const br: Messages = {
     title: "O Que Faço",
     subtitle:
       "Abaixo estão algumas das tecnologias e habilidades com as quais trabalho no dia a dia para entregar soluções de qualidade.",
+  },
+  Projects: {
+    featured: {
+      title: "Projetos em Destaque",
+      subtitle:
+        "Alguns dos projetos em que trabalhei recentemente.",
+      viewAll: "Ver todos os projetos",
+    },
+    title: "O Que Faço",
+    subtitle:
+      "Abaixo estão algumas das tecnologias e habilidades com as quais trabalho no dia a dia para entregar soluções de qualidade.",
+    viewMore: "Ver detalhes",
   }
 };
 

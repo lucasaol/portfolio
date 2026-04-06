@@ -1,6 +1,6 @@
 import { Locale } from "@/i18n/routing";
 import { Skill } from "./types";
-import { BookIcon, BookOpenIcon, CloudCogIcon, Code2Icon, CreditCardIcon, DatabaseIcon, GitBranchIcon, LibraryIcon, LightbulbIcon, Users2Icon } from "lucide-react";
+import { BookOpenIcon, CloudCogIcon, Code2Icon, CreditCardIcon, DatabaseIcon, GitBranchIcon, LightbulbIcon, Users2Icon } from "lucide-react";
 
 const hardSkills: Record<Locale, Skill[]> = {
     br: [

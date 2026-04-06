@@ -35,6 +35,18 @@ const en: Messages = {
     subtitle:
       "---",
   },
+  Projects: {
+    featured: {
+      title: "---",
+      subtitle:
+        "---",
+      viewAll: "---",
+    },
+    title: "---",
+    subtitle:
+      "---",
+    viewMore: "---",
+  }
 };
 
 export default en;

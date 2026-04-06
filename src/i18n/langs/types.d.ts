@@ -27,5 +27,15 @@ export type Messages = {
   Overview: {
     title: string;
     subtitle: string;
-  }
+  };
+  Projects: {
+    featured: {
+      title: string;
+      subtitle: string;
+      viewAll: string;
+    },
+    title: string;
+    subtitle: string;
+    viewMore: string;
+  };
 };

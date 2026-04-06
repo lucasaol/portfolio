@@ -1,8 +1,7 @@
 import { use } from "react";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
-import { AboutSection } from "@/components/home/sections/about";
-import { OverviewSection } from "@/components/home/sections/overview";
+import { AboutSection, OverviewSection, ProjectsSection } from "@/components/home/sections";
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -26,6 +25,7 @@ export default function HomePage({ params }: PageProps) {
     <>
       <AboutSection />
       <OverviewSection />
+      <ProjectsSection />
     </>
   );
 }
