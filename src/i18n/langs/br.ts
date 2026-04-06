@@ -47,7 +47,11 @@ const br: Messages = {
       "Bem-vindo ao meu portfolio. Aqui você encontra uma seleção de projetos que demonstram minha experiência e habilidades em desenvolvimento de software.",
     callToAction: "Precisa de ajuda para construir seu software?",
     ctaLink: "Entre em contato",
+    ctaTitle: "Precisa ajuda com o seu projeto?",
+    ctaDescription: "Se você tem um projeto em mente, entre em contato para discutirmos como posso ajudar.",
     viewMore: "Ver detalhes",
+    overview: "Visão geral do projeto",
+    stackUsed: "Tecnologias utilizadas",
     all: "Todos"
   },
   Contact: {

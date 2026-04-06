@@ -38,7 +38,11 @@ export type Messages = {
     intro: string;
     callToAction: string;
     ctaLink: string;
+    ctaTitle: string;
+    ctaDescription: string;
     viewMore: string;
+    overview: string;
+    stackUsed: string;
     all: string;
   };
   Contact: {

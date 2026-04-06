@@ -47,7 +47,11 @@ const en: Messages = {
       "---",
     callToAction: "---",
     ctaLink: "---",
+    ctaTitle: "---",
+    ctaDescription: "---",
     viewMore: "---",
+    overview: "---",
+    stackUsed: "---",
     all: "All"
   },
   Contact: {

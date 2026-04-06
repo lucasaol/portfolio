@@ -19,7 +19,7 @@ export default function ProjectsPage({ params, searchParams }: PageProps) {
     const { c: category } = use(searchParams);
 
     const t = useTranslations("Projects");
-    const projects = getProjects('br');
+    const projects = getProjects(locale);
 
     const filteredProjects = 
         !category ? projects : projects.filter((p) => p.categories.includes(category as Category));
