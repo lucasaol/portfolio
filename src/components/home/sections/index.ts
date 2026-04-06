@@ -1,5 +1,5 @@
 
-export * from '@/components/home/sections/about';
-export * from '@/components/home/sections/overview';
-export * from '@/components/home/sections/projects';
-export * from '@/components/home/sections/contact';
+export * from './about';
+export * from './overview';
+export * from './projects';
+export * from './contact';
