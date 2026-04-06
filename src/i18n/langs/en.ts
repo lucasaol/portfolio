@@ -20,6 +20,12 @@ const en: Messages = {
   Footer: {
     rights: "---"
   },
+  NotFound: {
+    title: "---",
+    description: "---",
+    backToHome: "---",
+    contactCta: "---",
+  },
   About: {
     title: "Lucas Andrade",
     role: "Senior Software Engineer | Technical Leadership",

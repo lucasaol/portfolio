@@ -16,6 +16,12 @@ export type Messages = {
   Footer: {
     rights: string;
   };
+  NotFound: {
+    title: string;
+    description: string;
+    backToHome: string;
+    contactCta: string;
+  };
   About: {
     title: string;
     role: string;

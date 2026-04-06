@@ -20,6 +20,12 @@ const br: Messages = {
   Footer: {
     rights: "Todos os direitos reservados."
   },
+  NotFound: {
+    title: "Página não Encontrada",
+    description: "A página que você está procurando não existe ou foi movida. Verifique o endereço ou volte para a página inicial.",
+    backToHome: "Voltar para o início",
+    contactCta: "Entrar em contato",
+  },
   About: {
     title: "Lucas Andrade",
     role: "Engenheiro de Software Sênior | Liderança Técnica",
