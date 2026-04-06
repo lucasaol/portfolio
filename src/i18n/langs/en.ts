@@ -43,9 +43,12 @@ const en: Messages = {
       viewAll: "---",
     },
     title: "---",
-    subtitle:
+    intro:
       "---",
+    callToAction: "---",
+    ctaLink: "---",
     viewMore: "---",
+    all: "All"
   },
   Contact: {
     title: "---",

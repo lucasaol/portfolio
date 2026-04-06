@@ -42,10 +42,13 @@ const br: Messages = {
         "Alguns dos projetos em que trabalhei recentemente.",
       viewAll: "Ver todos os projetos",
     },
-    title: "O Que Faço",
-    subtitle:
-      "Abaixo estão algumas das tecnologias e habilidades com as quais trabalho no dia a dia para entregar soluções de qualidade.",
+    title: "Portfolio",
+    intro:
+      "Bem-vindo ao meu portfolio. Aqui você encontra uma seleção de projetos que demonstram minha experiência e habilidades em desenvolvimento de software.",
+    callToAction: "Precisa de ajuda para construir seu software?",
+    ctaLink: "Entre em contato",
     viewMore: "Ver detalhes",
+    all: "Todos"
   },
   Contact: {
     title: "Entre em Contato",

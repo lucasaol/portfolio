@@ -35,8 +35,11 @@ export type Messages = {
       viewAll: string;
     },
     title: string;
-    subtitle: string;
+    intro: string;
+    callToAction: string;
+    ctaLink: string;
     viewMore: string;
+    all: string;
   };
   Contact: {
     title: string;
