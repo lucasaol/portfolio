@@ -54,7 +54,12 @@ export type Messages = {
   Contact: {
     title: string;
     subtitle: string;
+    ctaTitle: string;
+    ctaSubtitle: string;
     sendMessage: string;
     location: string;
+    contactInfoLabel: string;
+    socialMediaLabel: string;
+    sendMessageTitle: string;
   };
 };

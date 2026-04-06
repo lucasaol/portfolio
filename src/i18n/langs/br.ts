@@ -61,10 +61,15 @@ const br: Messages = {
     all: "Todos"
   },
   Contact: {
-    title: "Entre em Contato",
-    subtitle: "Tem um projeto em mente? Vamos conversar sobre como posso ajudar.",
+    title: "Vamos Conversar",
+    subtitle: "Estou sempre em busca de compartilhar conhecimento, colaborar com equipes diversas e aprender novas tecnologias que possam agregar valor aos projetos. Vamos conversar!",
+    ctaTitle: "Entre em Contato",
+    ctaSubtitle: "Tem um projeto em mente? Vamos conversar sobre como posso ajudar.",
     sendMessage: "Enviar Mensagem",
-    location: "Brasil"
+    location: "Brasil",
+    contactInfoLabel: "Informações de Contato",
+    socialMediaLabel: "Me Siga",
+    sendMessageTitle: "Enviar uma Mensagem",
   }
 };
 

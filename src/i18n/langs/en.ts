@@ -63,8 +63,13 @@ const en: Messages = {
   Contact: {
     title: "---",
     subtitle: "---",
+    ctaTitle: "---",
+    ctaSubtitle: "---",
     sendMessage: "---",
-    location: "Brazil"
+    location: "Brazil",
+    contactInfoLabel: "---",
+    socialMediaLabel: "---",
+    sendMessageTitle: "---",
   }
 };
 
