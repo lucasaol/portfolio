@@ -12,8 +12,8 @@ export async function generateMetadata({ params }: PageProps) {
   const t = await getTranslations({ locale, namespace: "Metadata" });
 
   return {
-    title: t("title"),
-    description: t("description"),
+    title: t('title'),
+    description: t('description'),
   };
 }
 
@@ -26,7 +26,7 @@ export default function HomePage({ params }: PageProps) {
       <AboutSection />
       <OverviewSection locale={locale} />
       <ProjectsSection locale={locale} />
-      <ContactSection />
+      <ContactSection locale={locale} />
     </>
   );
 }

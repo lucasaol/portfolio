@@ -10,7 +10,7 @@ const navLinks = [
   { path: "/", key: "about" as const },
   { path: "/projects", key: "projects" as const },
   { path: "/resume", key: "resume" as const },
-  { path: "/#contact", key: "contact" as const },
+  { path: "/contact", key: "contact" as const },
 ];
 
 export function SidebarContent() {
