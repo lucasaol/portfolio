@@ -12,15 +12,15 @@ export default function RootLayout({
 }>) {
   return (
     <html className={cn("h-full", "font-sans", inter.variable)} suppressHydrationWarning>
-      <ThemeProvider
-        attribute="class"
-        enableSystem
-        disableTransitionOnChange
-      >
-        <body className="min-h-full antialiased">
+      <body className="min-h-full antialiased">
+        <ThemeProvider
+          attribute="class"
+          enableSystem
+          disableTransitionOnChange
+        >
           {children}
-        </body>
-      </ThemeProvider>
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
