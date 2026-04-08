@@ -70,6 +70,28 @@ const br: Messages = {
     contactInfoLabel: "Informações de Contato",
     socialMediaLabel: "Me Siga",
     sendMessageTitle: "Enviar uma Mensagem",
+    form: {
+      name: {
+        label: "Nome",
+        placeholder: "Seu nome completo",
+      },
+      email: {
+        label: "E-mail",
+        placeholder: "seu@email.com",
+      },
+      subject: {
+        label: "Assunto",
+        placeholder: "Como posso ajudar?",
+      },
+      message: {
+        label: "Mensagem",
+        placeholder: "Sua mensagem...",
+      }
+    },
+    successTitle: "Mensagem enviada!",
+    successDescription: "Obrigado pelo contato. Retornarei em breve.",
+    errorTitle: "Algo deu errado",
+    errorDescription: "Não foi possível enviar sua mensagem. Tente novamente.",
   }
 };
 

@@ -61,5 +61,27 @@ export type Messages = {
     contactInfoLabel: string;
     socialMediaLabel: string;
     sendMessageTitle: string;
+    form: {
+      name: {
+        label: string;
+        placeholder: string;
+      },
+      email: {
+        label: string;
+        placeholder: string;
+      },
+      subject: {
+        label: string;
+        placeholder: string;
+      },
+      message: {
+        label: string;
+        placeholder: string;
+      }
+    },
+    successTitle: string;
+    successDescription: string;
+    errorTitle: string;
+    errorDescription: string;
   };
 };

@@ -19,64 +19,63 @@ export function ContactForm() {
                 <form className="space-y-4">
                     <FieldGroup className="grid grid-cols-2 gap-4">
                         <Field>
-                            <FieldLabel htmlFor="name">Name</FieldLabel>
+                            <FieldLabel htmlFor="name">{t('form.name.label')}</FieldLabel>
                             <Input
                                 type="text"
                                 id="name"
                                 required
-                                placeholder="Seu nome completo"
+                                placeholder={t('form.name.placeholder')}
                             />
                         </Field>
                         <Field>
-                            <FieldLabel htmlFor="email">E-mail</FieldLabel>
+                            <FieldLabel htmlFor="email">{t('form.email.label')}</FieldLabel>
                             <Input
                                 type="email"
                                 id="email"
                                 required
-                                placeholder="seu@email.com"
+                                placeholder={t('form.email.placeholder')}
                             />
                         </Field>
                     </FieldGroup>
 
                     <FieldGroup>
                         <Field>
-                            <FieldLabel htmlFor="subject">Assunto</FieldLabel>
+                            <FieldLabel htmlFor="subject">{t('form.subject.label')}</FieldLabel>
                             <Input
                                 type="text"
                                 id="subject"
                                 required
-                                placeholder="Como posso ajudar?"
+                                placeholder={t('form.subject.placeholder')}
                             />
                         </Field>
                     </FieldGroup>
 
                     <FieldGroup>
                         <Field>
-                            <FieldLabel htmlFor="message">Mensagem</FieldLabel>
+                            <FieldLabel htmlFor="message">{t('form.message.label')}</FieldLabel>
                             <Textarea 
                                 id="message"
                                 rows={8}
                                 required
-                                placeholder="Sua mensagem..."
+                                placeholder={t('form.message.placeholder')}
                                 className="h-32 resize-none"
                             />
                         </Field>
                     </FieldGroup>
-
-                    <div className="flex">
-                        <Button type="submit" size="lg">
-                            Enviar mensagem
-                        </Button>
-                    </div>
+                    
+                    <Button type="submit" size="lg">{t('sendMessage')}</Button>
                 </form>
             </CardContent>
             <CardFooter>
                 <Alert variant="success">
                     <CircleCheckBigIcon />
-                    <AlertTitle>Sucesso!</AlertTitle>
-                    <AlertDescription>
-                        Mensagem enviada com sucesso, em breve retornarei o contato!
-                    </AlertDescription>
+                    <AlertTitle>{t('successTitle')}</AlertTitle>
+                    <AlertDescription>{t('successDescription')}</AlertDescription>
+                </Alert>
+                <Alert variant="danger">
+                    <CircleCheckBigIcon />
+                    <AlertTitle>{t('errorTitle')}</AlertTitle>
+                    <AlertDescription>{t('errorDescription')}</AlertDescription>
                 </Alert>
             </CardFooter>
         </Card>

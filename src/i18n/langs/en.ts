@@ -70,6 +70,28 @@ const en: Messages = {
     contactInfoLabel: "---",
     socialMediaLabel: "---",
     sendMessageTitle: "---",
+    form: {
+      name: {
+        label: "Name",
+        placeholder: "Your Name",
+      },
+      email: {
+        label: "Email",
+        placeholder: "your@email.com",
+      },
+      subject: {
+        label: "Subject",
+        placeholder: "How can I help?",
+      },
+      message: {
+        label: "Message",
+        placeholder: "Your message...",
+      }
+    },
+    successTitle: "Message sent!",
+    successDescription: "Thanks for reaching out. I'll get back to you soon.",
+    errorTitle: "Something went wrong",
+    errorDescription: "Your message could not be sent. Please try again.",
   }
 };
 
