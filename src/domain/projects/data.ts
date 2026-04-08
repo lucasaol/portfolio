@@ -76,7 +76,26 @@ const allProjects: Record<Locale, Project[]> = {
             gallery: []
         }
     ],
-    en: [],
+    en: [
+        {
+            slug: "wedding-hub-2",
+            image: "https://placehold.co/600x400",
+            title: "Wedding Website 2",
+            introduction: "test test test test test test test test test test test test",
+            categories: ["Mobile"],
+            url: "https://lucasaol.github.io/truco",
+            githubUrl: "https://github.com/lucasaol/truco",
+            overview: "teste",
+            description: [
+                {
+                    title: "test",
+                    content:["test"],
+                }
+            ],
+            stack: ["React.js"],
+            gallery: []
+        }
+    ],
 };
 
 export function getProjects(locale: Locale, limit?: number): Project[] {
