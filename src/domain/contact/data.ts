@@ -1,12 +1,33 @@
 import { ContactInfo, SocialMedia } from "./types";
-import { IconBrandLinkedin, IconBrandGithub, IconBrandWhatsapp } from '@tabler/icons-react';
+import { IconBrandLinkedin, IconBrandGithub, IconBrandWhatsapp, IconBrandX } from '@tabler/icons-react';
 import { Locale } from "@/i18n/routing";
 import { MailIcon, MapPinIcon, PhoneIcon } from "lucide-react";
 
 export const socialMedia: SocialMedia[] = [
-  { label: "LinkedIn", icon: IconBrandLinkedin, href: "https://www.linkedin.com/in/lucasaol/" },
-  { label: "GitHub", icon: IconBrandGithub, href: "https://github.com/lucasaol" },
-  { label: "WhatsApp", icon: IconBrandWhatsapp, href: "https://wa.me/5531983010121" },
+    { 
+        label: "LinkedIn",
+        text: "linkedin.com/in/lucasaol",
+        icon: IconBrandLinkedin,
+        href: "https://www.linkedin.com/in/lucasaol"
+    },
+    { 
+        label: "GitHub",
+        text: "github.com/lucasaol",
+        icon: IconBrandGithub,
+        href: "https://github.com/lucasaol"
+    },
+    { 
+        label: "WhatsApp",
+        text: "wa.me/5531983010121",
+        icon: IconBrandWhatsapp,
+        href: "https://wa.me/5531983010121"
+    },
+    { 
+        label: "Twitter",
+        text: "@luucasaol",
+        icon: IconBrandX,
+        href: "https://x.com/luucasaol"
+    },
 ];
 
 const contactInfo: Record<Locale, ContactInfo[]> = {

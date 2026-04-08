@@ -92,6 +92,18 @@ const br: Messages = {
     successDescription: "Obrigado pelo contato. Retornarei em breve.",
     errorTitle: "Algo deu errado",
     errorDescription: "Não foi possível enviar sua mensagem. Tente novamente.",
+  },
+  Resume: {
+    title: "Currículo",
+    download: "Baixar versão em PDF",
+    contactLabel:  "Contato",
+    socialLabel:  "Social",
+    languagesLabel:  "Idiomas",
+    careerLabel:  "Perfil",
+    careerSummary: "Sou um Engenheiro de Software Fullstack com mais de 8 anos de experiência em desenvolvimento e liderança técnica de equipes em soluções financeiras. Especializado em PHP, Laravel, React, Next.js, Node.js e TypeScript, com sólida experiência em arquitetura de software, design de APIs e microsserviços.",
+    careerGoals: "Meu objetivo é contribuir para projetos desafiadores em um ambiente inovador, onde possa aplicar minhas habilidades técnicas e interpessoais, além de impulsionar meu crescimento profissional e a formação de novos líderes.",
+    experiencesLabel:  "Experiências Profissionais",
+    educationLabel:  "Formação Acadêmica",
   }
 };
 

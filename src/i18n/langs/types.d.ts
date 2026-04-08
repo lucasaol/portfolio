@@ -84,4 +84,16 @@ export type Messages = {
     errorTitle: string;
     errorDescription: string;
   };
+  Resume: {
+    title: string;
+    download: string;
+    contactLabel: string;
+    socialLabel: string;
+    languagesLabel: string;
+    careerLabel: string;
+    careerSummary: string,
+    careerGoals: string,
+    experiencesLabel: string;
+    educationLabel: string;
+  };
 };

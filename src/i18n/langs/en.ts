@@ -92,6 +92,18 @@ const en: Messages = {
     successDescription: "Thanks for reaching out. I'll get back to you soon.",
     errorTitle: "Something went wrong",
     errorDescription: "Your message could not be sent. Please try again.",
+  },
+  Resume: {
+    title: "---",
+    download: "---",
+    contactLabel:  "---",
+    socialLabel:  "---",
+    languagesLabel:  "---",
+    careerLabel:  "---",
+    careerSummary: "---",
+    careerGoals: "---",
+    experiencesLabel:  "---",
+    educationLabel:  "---",
   }
 };
 

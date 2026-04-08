@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 interface ContactProps {
     locale: Locale;
 }
+
 export function ContactInfoSection({ locale }: ContactProps) {
     const t = useTranslations("Contact");
 
@@ -30,8 +31,7 @@ export function ContactInfoSection({ locale }: ContactProps) {
                             <p className="text-foreground">{info.text}</p>
                             </div>
                         </li>
-                    ))}
-                    
+                    ))}                    
                 </ul>
             </CardContent>
         </Card>
