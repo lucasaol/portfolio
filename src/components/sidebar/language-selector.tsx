@@ -23,6 +23,7 @@ export function LanguageSelector() {
           aria-label="Português (Brasil)"
         >
           <Image src="https://flagcdn.com/br.svg" alt="Português (BR)" width={20} height={14} />
+          PT
         </Link>
 
         <Link
@@ -36,6 +37,7 @@ export function LanguageSelector() {
           aria-label="English"
         >
           <Image src="https://flagcdn.com/us.svg" alt="English" width={20} height={14} />
+          EN
         </Link>
     </div>
   );

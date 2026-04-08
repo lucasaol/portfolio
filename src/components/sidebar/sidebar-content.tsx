@@ -24,16 +24,10 @@ export function SidebarContent() {
             </Avatar>
 
             <h1 className="mb-1 text-xl font-bold text-sidebar-foreground">Lucas Andrade</h1>
-            <p className="mb-4 text-center text-sm text-sidebar-foreground/70">Senior Software Engineer | Tech Lead</p>
-
-            <div className="flex items-center gap-2">
-                <LanguageSelector />
-            </div>
-
+            <p className="text-center text-sm text-sidebar-foreground/70">Senior Software Engineer | Tech Lead</p>
+            
             <Separator className="my-4 bg-sidebar-border" />
-            <SocialMedias />
-            <Separator className="my-4 bg-sidebar-border" />
-
+            
             <nav className="mb-6 w-full space-y-1">
                 {navLinks.map((link) => (
                     <Link
@@ -45,8 +39,13 @@ export function SidebarContent() {
                     </Link>
                 ))}
             </nav>
-            <div className="mt-auto">
-                <ThemeToggle />
+            <div className="mt-auto flex flex-col gap-1 items-center">
+                <SocialMedias />
+                <Separator className="my-4 bg-sidebar-border" />
+                <div className="flex items-center gap-2">
+                    <LanguageSelector />
+                    <ThemeToggle />
+                </div>
             </div>
         </div>
     );
