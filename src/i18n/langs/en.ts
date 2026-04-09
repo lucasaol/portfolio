@@ -91,6 +91,7 @@ const en: Messages = {
   Resume: {
     title: "---",
     download: "---",
+    downloadUrl: "https://cdn.lucasandrade.work/resume/lucas-andrade-pt-br.pdf",
     contactLabel:  "---",
     socialLabel:  "---",
     languagesLabel:  "---",

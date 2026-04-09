@@ -25,9 +25,11 @@ export default async function ResumePage({ params }: ResumePageProps) {
                 <div className="flex flex-row align-middle justify-between mb-8">
                     <h2 className="mb-2 text-3xl font-bold tracking-tight">{t('title')}</h2>
 
-                    <Button variant="outline">
-                        <DownloadIcon className="h-4 w-4" />
-                        {t('download')}
+                    <Button variant="outline" asChild>
+                        <a href={t('downloadUrl')} target="_blank" rel="noopener noreferrer">
+                            <DownloadIcon className="h-4 w-4" />
+                            {t('download')}
+                        </a>
                     </Button>
                 </div>
 

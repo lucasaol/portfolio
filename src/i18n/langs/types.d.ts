@@ -83,6 +83,7 @@ export type Messages = {
   Resume: {
     title: string;
     download: string;
+    downloadUrl: string;
     contactLabel: string;
     socialLabel: string;
     languagesLabel: string;

@@ -91,6 +91,7 @@ const br: Messages = {
   Resume: {
     title: "Currículo",
     download: "Baixar versão em PDF",
+    downloadUrl: "https://cdn.lucasandrade.work/resume/lucas-andrade-pt-br.pdf",
     contactLabel:  "Contato",
     socialLabel:  "Social",
     languagesLabel:  "Idiomas",
