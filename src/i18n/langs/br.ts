@@ -2,9 +2,9 @@ import type { Messages } from "@/i18n/langs/types";
 
 const br: Messages = {
   Metadata: {
-    title: "Lucas Andrade - Portfólio de Desenvolvedor",
+    title: "Lucas Andrade | Senior Software Engineer & Tech Lead",
     description:
-      "Portfólio de desenvolvedor full-stack apresentando projetos, habilidades e experiência.",
+      "Engenheiro de Software Senior especializado em PHP (Laravel), Next.js, Python e Cloud. Expertise em arquitetura de sistemas, fintechs, gateways de pagamento e bancos de dados SQL/NoSQL."
   },
   Sidebar: {
     about: "Sobre",
