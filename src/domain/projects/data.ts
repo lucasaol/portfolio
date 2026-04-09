@@ -5,7 +5,7 @@ const allProjects: Record<Locale, Project[]> = {
     br: [
         {
             slug: "marcador-truco-mineiro",
-            image: "https://v2.devlucas.com/image/project-gallery/01KG8AAC0Y9VGAEH5H8T3PCHP7.png",
+            image: "https://cdn.lucasandrade.work/projects/truco/01.png",
             title: "Marcador Truco Mineiro",
             introduction: "Marcador online de tentos do truco mineiro",
             categories: ["Web", "Frontend"],
