@@ -19,13 +19,13 @@ export function SidebarContent() {
     return (
         <div className="flex h-full flex-col items-center px-6 py-8">
             <Avatar className="mb-4 h-28 w-28 border-2 border-primary">
-                <AvatarImage src="/memoji.png" alt="Lucas Andrade" />
+                <AvatarImage src="https://cdn.lucasandrade.work/profile/avatar.png" alt="Lucas Andrade" />
                 <AvatarFallback className="bg-primary text-primary-foreground text-2xl font-bold">LA</AvatarFallback>
             </Avatar>
 
             <h1 className="mb-1 text-xl font-bold text-sidebar-foreground">Lucas Andrade</h1>
             <p className="text-center text-sm text-sidebar-foreground/70">Senior Software Engineer | Tech Lead</p>
-            
+
             <Separator className="my-4 bg-sidebar-border" />
             
             <nav className="mb-6 w-full space-y-1">

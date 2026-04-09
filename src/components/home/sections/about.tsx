@@ -53,7 +53,7 @@ export function AboutSection() {
 
                     <div className="shrink-0">
                         <Avatar className="h-48 w-48 border-4 border-primary/20 shadow-lg md:h-56 md:w-56">
-                            <AvatarImage src="/profile.jpeg" alt="Lucas Andrade" />
+                            <AvatarImage src="https://cdn.lucasandrade.work/profile/hero.jpeg" alt="Lucas Andrade" />
                             <AvatarFallback className="bg-primary/10 text-primary text-4xl font-bold">
                                 LA
                             </AvatarFallback>
