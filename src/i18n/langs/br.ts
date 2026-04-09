@@ -1,11 +1,6 @@
 import type { Messages } from "@/i18n/langs/types";
 
 const br: Messages = {
-  HomePage: {
-    title: "Olá, eu sou o Lucas Andrade",
-    description:
-      "Desenvolvedor full-stack apaixonado por criar experiências digitais incríveis.",
-  },
   Metadata: {
     title: "Lucas Andrade - Portfólio de Desenvolvedor",
     description:
@@ -30,16 +25,16 @@ const br: Messages = {
     title: "Lucas Andrade",
     role: "Engenheiro de Software Sênior | Liderança Técnica",
     description:
-      "Sou Desenvolvedor Fullstack com 8 anos de experiência, especializado em criar aplicações robustas e escaláveis, usando tecnologia moderna. Minha atuação vai além do código: uno liderança técnica e visão de produto para entregar soluções que resolvem dores reais de negócio, com especial expertise no setor de fintechs e sistemas de pagamento.",
+      "Engenheiro de Software Fullstack e Tech Lead com 8 anos de experiência, especializado em arquitetar aplicações robustas e escaláveis, usando tecnologia moderna e ecossistemas de alta performance. Minha atuação vai além do código: uno liderança técnica e visão de produto para entregar soluções que resolvem dores reais de negócio, com expertise consolidada no setor de fintechs e sistemas de pagamento.",
     bio:
       "Quando não estou desenvolvendo projetos, estou ouvindo hip-hop, cuidando da coleção de sneakers ou tentando melhorar minha mira no FPS.",
     viewPortfolio: "Ver portfolio",
     viewResume: "Currículo"
   },
   Overview: {
-    title: "O Que Faço",
+    title: "Expertise & Competências",
     subtitle:
-      "Abaixo estão algumas das tecnologias e habilidades com as quais trabalho no dia a dia para entregar soluções de qualidade.",
+      "Um panorama das tecnologias e metodologias que domino para arquitetar soluções escaláveis, liderar times e transformar desafios de negócio em software de alta performance e de qualidade."
   },
   Projects: {
     featured: {
@@ -50,11 +45,11 @@ const br: Messages = {
     },
     title: "Portfolio",
     intro:
-      "Bem-vindo ao meu portfolio. Aqui você encontra uma seleção de projetos que demonstram minha experiência e habilidades em desenvolvimento de software.",
+      "Aqui está o que eu venho construindo. Uma seleção de projetos desde plataformas completas que entreguei de ponta a ponta até alguns experimentos que fiz para testar novas tecnologias.",
     callToAction: "Precisa de ajuda para construir seu software?",
-    ctaLink: "Entre em contato",
-    ctaTitle: "Precisa ajuda com o seu projeto?",
-    ctaDescription: "Se você tem um projeto em mente, entre em contato para discutirmos como posso ajudar.",
+    ctaLink: "Me chame aqui",
+    ctaTitle: "Tem um desafio pra mim?",
+    ctaDescription: "Se você tem um projeto em mente e quer uma opinião técnica ou alguém para compor a equipe, bora conversar.",
     viewMore: "Ver detalhes",
     overview: "Visão geral do projeto",
     stackUsed: "Tecnologias utilizadas",
@@ -62,9 +57,9 @@ const br: Messages = {
   },
   Contact: {
     title: "Vamos Conversar",
-    subtitle: "Estou sempre em busca de compartilhar conhecimento, colaborar com equipes diversas e aprender novas tecnologias que possam agregar valor aos projetos. Vamos conversar!",
-    ctaTitle: "Entre em Contato",
-    ctaSubtitle: "Tem um projeto em mente? Vamos conversar sobre como posso ajudar.",
+    subtitle: "Estou sempre aberto a novos projetos e desafios técnicos. Se tiver um projeto em mente ou quiser conversar sobre tecnologia, utilize o formulário ou um dos links abaixo.",
+    ctaTitle: "Vamos conversar?",
+    ctaSubtitle: "Me conta mais sobre o seu projeto e vamos ver como posso somar com a sua equipe.",
     sendMessage: "Enviar Mensagem",
     location: "Brasil",
     contactInfoLabel: "Informações de Contato",

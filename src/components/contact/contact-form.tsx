@@ -120,7 +120,8 @@ export function ContactForm() {
                         </Field>
                     </FieldGroup>
                     
-                    <Button 
+                    <Button
+                        variant="default"
                         type="submit"
                         size="lg"
                         disabled={status === 'submitting'}

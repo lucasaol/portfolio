@@ -1,5 +1,5 @@
 import { ContactInfo, SocialMedia } from "./types";
-import { IconBrandLinkedin, IconBrandGithub, IconBrandWhatsapp, IconBrandX } from '@tabler/icons-react';
+import { IconBrandLinkedin, IconBrandGithub, IconBrandWhatsapp } from '@tabler/icons-react';
 import { Locale } from "@/i18n/routing";
 import { MailIcon, MapPinIcon, PhoneIcon } from "lucide-react";
 
@@ -21,13 +21,7 @@ export const socialMedia: SocialMedia[] = [
         text: "wa.me/5531983010121",
         icon: IconBrandWhatsapp,
         href: "https://wa.me/5531983010121"
-    },
-    { 
-        label: "Twitter",
-        text: "@luucasaol",
-        icon: IconBrandX,
-        href: "https://x.com/luucasaol"
-    },
+    }
 ];
 
 const contactInfo: Record<Locale, ContactInfo[]> = {
@@ -45,7 +39,7 @@ const contactInfo: Record<Locale, ContactInfo[]> = {
         {
             icon: MapPinIcon,
             label: "Localização",
-            text: "Brasil"
+            text: "Belo Horizonte, MG"
         }
     ],
     en: [

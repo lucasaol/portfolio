@@ -1,11 +1,6 @@
 import type { Messages } from "@/i18n/langs/types";
 
 const en: Messages = {
-  HomePage: {
-    title: "Hi, I'm Lucas Andrade",
-    description:
-      "Full-stack developer passionate about creating amazing digital experiences.",
-  },
   Metadata: {
     title: "Lucas Andrade - Developer Portfolio",
     description:

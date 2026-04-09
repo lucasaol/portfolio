@@ -34,68 +34,11 @@ const allProjects: Record<Locale, Project[]> = {
             ],
             stack: ["TypeScript", "React.js"],
             gallery: [
-                "https://v2.devlucas.com/image/project-gallery/01KG8AAC0Y9VGAEH5H8T3PCHP7.png",
-                "https://v2.devlucas.com/image/project-gallery/01KG8AAC0Y9VGAEH5H8T3PCHP7.png",
-                "https://v2.devlucas.com/image/project-gallery/01KG8AAC0Y9VGAEH5H8T3PCHP7.png"
+                "https://cdn.lucasandrade.work/projects/truco/01.png"
             ]
         },
-        {
-            slug: "wedding-hub",
-            image: "https://placehold.co/600x400",
-            title: "Site de Casamento",
-            introduction: "teste teste teste teste teste teste teste teste teste teste teste teste",
-            categories: ["Web", "Backend"],
-            url: "https://lucasaol.github.io/truco",
-            githubUrl: "https://github.com/lucasaol/truco",
-            overview: "teste",
-            description: [
-                {
-                    title: "teste",
-                    content:["teste"],
-                }
-            ],
-            stack: ["React.js"],
-            gallery: []
-        },
-        {
-            slug: "wedding-hub-2",
-            image: "https://placehold.co/600x400",
-            title: "Site de Casamento 2",
-            introduction: "teste teste teste teste teste teste teste teste teste teste teste teste",
-            categories: ["Mobile"],
-            url: "https://lucasaol.github.io/truco",
-            githubUrl: "https://github.com/lucasaol/truco",
-            overview: "teste",
-            description: [
-                {
-                    title: "teste",
-                    content:["teste"],
-                }
-            ],
-            stack: ["React.js"],
-            gallery: []
-        }
     ],
-    en: [
-        {
-            slug: "wedding-hub-2",
-            image: "https://placehold.co/600x400",
-            title: "Wedding Website 2",
-            introduction: "test test test test test test test test test test test test",
-            categories: ["Mobile"],
-            url: "https://lucasaol.github.io/truco",
-            githubUrl: "https://github.com/lucasaol/truco",
-            overview: "teste",
-            description: [
-                {
-                    title: "test",
-                    content:["test"],
-                }
-            ],
-            stack: ["React.js"],
-            gallery: []
-        }
-    ],
+    en: [],
 };
 
 export function getProjects(locale: Locale, limit?: number): Project[] {

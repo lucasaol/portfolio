@@ -1,8 +1,4 @@
 export type Messages = {
-  HomePage: {
-    title: string;
-    description: string;
-  };
   Metadata: {
     title: string;
     description: string;
