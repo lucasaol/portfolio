@@ -39,7 +39,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     <NextIntlClientProvider messages={messages}>
       <div className="flex min-h-screen">
         <Sidebar />
-        <main className="flex-1 lg:ml-[300px]">
+        <main className="flex-1 lg:ml-[300px] mt-8 lg:mt-0">
           <div className="min-h-svh">
             {children}
           </div>            
