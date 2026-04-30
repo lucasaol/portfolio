@@ -11,7 +11,7 @@ interface ProjectDetailsPageProps {
 
 export async function generateStaticParams() {
     const slugs = getAllProjectSlugs();
-    return locales.flatMap((locale) => 
+    return locales.flatMap((locale) =>
         slugs.map((slug) => ({ locale, slug }))
     );
 }

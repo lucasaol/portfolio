@@ -9,8 +9,10 @@ const education: Record<Locale, Education[]> = {
     { degree: "Técnico em Informática Gerencial", institution: "Colégio COTEMIG", period: "2014 - 2016" },
   ],
   en: [
-    { degree: "Postgraduate in Software Engineering", institution: "USP", period: "2016 - 2017" },
-    { degree: "Bachelor in Computer Science", institution: "UNICAMP", period: "2012 - 2015" },
+    { degree: "Postgraduate Specialization in Mobile Development", institution: "Estácio", period: "2024 - 2024" },
+    { degree: "Technology Degree in Systems Analysis and Development", institution: "Faculdade COTEMIG", period: "2020 - 2021" },
+    { degree: "Bachelor's Degree in Information Systems", institution: "Faculdade COTEMIG", period: "2017 - 2021" },
+    { degree: "Technical Degree in Business Informatics", institution: "Colégio COTEMIG", period: "2014 - 2016" },
   ],
 };
 

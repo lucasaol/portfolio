@@ -43,7 +43,7 @@ export function SidebarContent() {
                 <SocialMedias />
                 <Separator className="my-4 bg-sidebar-border" />
                 <div className="flex items-center gap-2">
-                    {/* <LanguageSelector /> */}
+                    <LanguageSelector />
                     <ThemeToggle />
                 </div>
             </div>

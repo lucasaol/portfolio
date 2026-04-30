@@ -21,7 +21,7 @@ const experiences: Record<Locale, WorkExperience[]> = {
       location: "Remoto",
       description: "Responsável pelo desenvolvimento de soluções financeiras 360º, envio de pagamentos, liquidações de fundos de cobrança, proteção antifraude e comunicação simplificada.",
       achievements: [
-        "Envolvido no produto “Paag Payments”, solução de cobranças personalizadas, com foto no mercado de BETs esportivas regularizadas pelo Banco Central do Brasil, contando também com a possibilidade de pagamentos internacionais."
+        "Envolvido no produto “Paag Payments”, solução de cobranças personalizadas, com foco nos mercados de BETs esportivas e iGaming regularizados pelo Banco Central do Brasil, contando também com a possibilidade de pagamentos internacionais."
       ],
       period: "out/2024 - out/2025"
     },
@@ -133,20 +133,131 @@ const experiences: Record<Locale, WorkExperience[]> = {
   ],
   en: [
     {
-        jobTitle: "Senior Fullstack Software Engineer",
-        companyName: "FastPay",
-        location: "Remote",
-        period: "out/2025 - present",
-        description: "----",
-        achievements: []
+      jobTitle: "Senior Fullstack Software Engineer",
+      companyName: "FastPay",
+      location: "Remote",
+      description: "Working on the development and maintenance of the core of a global payments platform, covering multi-currency transaction processing, fee normalization, FX, settlement, receivables advancement, and large-scale financial reconciliation.",
+      achievements: [
+        "Implementing and evolving integrations with multiple payment methods such as Pix (Brazilian instant payment system), credit card, boleto (Brazilian bank slip), Rapipago, and Khipu (LATAM), along with other international gateways, focused on security, stability, and low latency.",
+        "Designing and building robust APIs for e-commerce, marketplaces, SaaS, fintechs, and white-label platforms, following distributed architecture, observability, and high-availability standards.",
+        "Contributing to the technical design and architectural decisions of the payments infrastructure, applying best practices in security, compliance, and scalability."
+      ],
+      period: "Nov 2025 - Present",
     },
     {
-        jobTitle: "Senior Software Engineer",
-        companyName: "Paag",
-        location: "Remote",
-        period: "out/2024 - out/2025",
-        description: "",
-        achievements: []
+      jobTitle: "Senior Software Engineer",
+      companyName: "Paag",
+      location: "Remote",
+      description: "Responsible for developing end-to-end financial solutions, payment dispatch, settlement of collection funds, antifraud protection, and simplified communication.",
+      achievements: [
+        "Worked on the “Paag Payments” product, a customized billing solution focused on the regulated sports betting and iGaming markets under the Central Bank of Brazil (BCB), with support for international payments."
+      ],
+      period: "Oct 2024 - Oct 2025"
+    },
+    {
+      jobTitle: "Senior Backend Engineer",
+      companyName: "SplitPay Brasil",
+      location: "Remote",
+      description: "Worked part-time as a backend developer on the Split Pay product team — a financial management system for medical clinics, dental offices, and beauty salons — focused on the final delivery and platform launch.",
+      achievements: [
+        "Contributed to development across multiple areas: clinic management, payment splitting, invoice issuance, and payment scheduling."
+      ],
+      period: "Oct 2024 - Dec 2024"
+    },
+    {
+      jobTitle: "Senior Software Engineer",
+      companyName: "Celcoin",
+      location: "Remote",
+      description: "Responsible for the development of the “cel_card” product, an innovative white-label service for credit card issuance and management.",
+      achievements: [
+        "Previously worked as a Senior Software Engineer on the “Integrations” Squad of the “cel_cash” product (formerly Galax Pay), contributing to cash management solutions."
+      ],
+      period: "Jan 2024 - Oct 2024"
+    },
+    {
+      jobTitle: "Squad Tech Lead",
+      companyName: "Celcoin",
+      location: "Remote",
+      description: "Led a squad within Celcoin's engineering team, focused on the development of the “cel_cash” cash management product, which covers one-time and recurring billing via credit card, boleto, and/or Pix.",
+      achievements: [
+        "Training and developing team members, prioritizing software quality and the growth of new leaders.",
+        "People management, providing continuous feedback and setting Individual Development Plans (IDPs) for each team member, fostering a collaborative and productive environment.",
+        "Ongoing collaboration with the Product team, participating in discovery, refinement, and technical planning of new features.",
+        "Involvement in hiring processes, conducting interviews and onboarding new team members."
+      ],
+      period: "Jan 2023 - Jan 2024"
+    },
+    {
+      jobTitle: "Tech Lead",
+      companyName: "Galax Pay",
+      location: "Belo Horizonte, Brazil",
+      description: "Technical leadership of a squad within the Technology team, focused on engineering excellence and the development of new leaders.",
+      achievements: [
+        "Built a collaborative and productive environment through continuous feedback and process improvements, while defining Individual Development Plans (IDPs) for each team member.",
+        "Involvement in hiring processes, conducting interviews and onboarding new team members."
+      ],
+      period: "May 2022 - Jan 2023"
+    },
+    {
+      jobTitle: "Mid-Level Software Engineer II",
+      companyName: "Galax Pay",
+      location: "Belo Horizonte, Brazil",
+      description: "Worked on the development and maintenance of billing management systems, including transactions via credit card, boleto, and Pix.",
+      achievements: [
+        "Experience with Central Bank of Brazil (BCB) regulations related to Pix, plus knowledge of payment gateways and sub-acquirers."
+      ],
+      period: "Sep 2020 - May 2022"
+    },
+    {
+      jobTitle: "Tech Lead",
+      companyName: "Construsite Brasil",
+      location: "Belo Horizonte, Brazil",
+      description: "Coordinated the Development department, leading the team through training and continuous improvement initiatives.",
+      achievements: [
+        "Involvement in hiring processes, conducting interviews and onboarding new team members."
+      ],
+      period: "Apr 2019 - Sep 2020"
+    },
+    {
+      jobTitle: "Junior Web Developer",
+      companyName: "Construsite Brasil",
+      location: "Belo Horizonte, Brazil",
+      description: "Developed and maintained web solutions across websites and Content Management Systems (CMS), e-commerce, real estate management, intranet, and ERP platforms.",
+      achievements: [
+        "Contributed to the development of custom solutions, ensuring systems met clients' specific needs.",
+        "Provided technical support via phone and email, helping users troubleshoot issues and ensuring a positive experience with the services offered."
+      ],
+      period: "Jan 2018 - Apr 2019"
+    },
+    {
+      jobTitle: "Web Development Intern",
+      companyName: "Construsite Brasil",
+      location: "Belo Horizonte, Brazil",
+      description: "Built websites, web portals, and online stores for the company's clients, focused on addressing their specific needs and demands.",
+      achievements: [
+        "Provided technical support via phone and email, helping users troubleshoot issues and ensuring a positive experience with the services offered."
+      ],
+      period: "Jun 2017 - Jan 2018"
+    },
+    {
+      jobTitle: "IT Support Assistant",
+      companyName: "Power Tecnologia BH",
+      location: "Belo Horizonte, Brazil",
+      description: "Technical support work, assisting with computer maintenance and remote client service.",
+      achievements: [
+        "On-site visits to client companies to provide technical support, ensuring effective problem resolution."
+      ],
+      period: "Apr 2017 - May 2017"
+    },
+    {
+      jobTitle: "IT Lab Teaching Assistant",
+      companyName: "Colégio COTEMIG",
+      location: "Belo Horizonte, Brazil",
+      description: "Responsible for the organization and maintenance of the computer labs, ensuring an environment suitable for learning.",
+      achievements: [
+        "Supported students in technical activities and study sessions, providing effective and collaborative help across the subjects assigned by teachers."
+      ],
+      period: "Oct 2015 - Apr 2017"
     }
   ],
 };
