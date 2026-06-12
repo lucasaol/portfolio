@@ -6,7 +6,7 @@ interface ProjectGalleryProps {
 
 export function ProjectGallery({ images }: ProjectGalleryProps) {
     return (
-        <div className="grid gap-6 sm:grid-cols-2">
+        <div className="grid gap-6 sm:grid-cols-3">
             {images.map((src, index) => (
                 <figure key={`${index}`}>
                     <Image

@@ -52,19 +52,19 @@ export function ProjectDetails({ project }: ProjectDetailsProps) {
                                     </a>
                                 </div>
                             )}
-                            {project.githubUrl && (
-                                <div className="flex items-center gap-1">
+                            {project.githubUrl?.map((repo) => (
+                                <div key={repo.url + repo.label} className="flex items-center gap-1">
                                     <IconBrandGithub className="h-4 w-4 text-primary" />{" "}
-                                    <a 
-                                        href={project.githubUrl}
+                                    <a
+                                        href={repo.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-foreground hover:text-primary"
                                     >
-                                        GitHub
+                                        {repo.label}
                                     </a>
                                 </div>
-                            )}
+                            ))}
                         </div>
                     </div>
 
